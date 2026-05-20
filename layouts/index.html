@@ -13,7 +13,7 @@
       href="{{ .Site.Params.favicon }}"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="{{ "style.css" | relURL }}" />
     <script src="https://code.iconify.design/2/2.0.0/iconify.min.js"></script>
     <meta name="description" content="{{ .Site.Params.description }}" />
     <meta property="og:title" content="{{ .Site.Title }}" />
@@ -76,6 +76,6 @@
 
       <!--{{ partial "footer.html" . }}-->
     </div>
-    <script src="/script.js"></script>
+    <script src="{{ "script.js" | relURL }}"></script>
   </body>
 </html>
