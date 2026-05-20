@@ -1,0 +1,18 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Your Name"
+
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+  description = "Links and things I'm working on"
+  favicon = "https://placehold.co/75x75"
+  logo = "https://placehold.co/75x75"
+  locale = "en_US"
+  tagline = ""
+  # ga4 = "G-XXXXXXX"  # uncomment to enable Google Analytics
+
+  [params.badge]
+    enable = false
+    icon = "ri:verified-badge-fill"
+    color = "#dfb221"

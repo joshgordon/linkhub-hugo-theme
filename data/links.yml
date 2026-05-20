@@ -1,0 +1,20 @@
+- category: Projects
+  items:
+    - title: My Website
+      url: https://example.com
+      icon: mdi:web
+    - title: Open Source Work
+      url: https://github.com/yourname
+      icon: mdi:code-braces
+    - title: New Project
+      icon: mdi:rocket-launch
+      tag: Coming soon!
+
+- category: Contact
+  items:
+    - title: Email Me
+      url: mailto:hello@example.com
+      icon: mdi:email-outline
+    - title: Book a Meeting
+      url: https://cal.com/yourname
+      icon: mdi:calendar-outline
